@@ -57,7 +57,9 @@ main {
 }
 
 .title{
-    font-size: 52px;
+    display: flex;
+    gap: 20px;
+    font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -88,7 +90,7 @@ main {
     align-items: end;
 }
 
-.container-contact > a{
+.container-contact > a {
     text-decoration: none;
     color:rgba(123, 74, 226, 0.5); 
 }
@@ -107,3 +109,38 @@ main {
     padding: 5px;
     border-radius: 16px;
   }
+
+  .container-about-me{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    margin-right: 380px;
+    gap: 15px;
+  }
+
+  .container-about-me > div > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 100px;
+  }
+
+  .mt-30 {
+    margin-top: 30px;
+  }
+  
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .container-about-me > div > h1 {
+    line-height: 50px;
+    font-size: 48px;
+  }
+  
+  .container-about-me > div > p {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  
+
