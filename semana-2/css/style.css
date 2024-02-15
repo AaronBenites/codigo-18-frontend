@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    background-color: #c3e3e6;
+}
+
+input,button {
+    font-family: "Space Mono", monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+form{
+    display: flex;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    gap: 30px;
+}
+
